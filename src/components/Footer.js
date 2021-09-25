@@ -1,7 +1,14 @@
 import React from "react"
 
 const Footer = () => {
-  return <footer>hello from footer</footer>
+  return (
+    <footer className="page-footer">
+      <p>
+        &copy; {new Date().getFullYear()} <span>LovWhisky</span>. Built with{" "}
+        <a herf="https://www.gatsbyjs.com">Gatsby</a>
+      </p>
+    </footer>
+  )
 }
 
 export default Footer
