@@ -1,11 +1,12 @@
-import { Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
 
-export default function Home() {
+const Error = () => {
   return (
     <Layout>
-      <h1>home page</h1>
+      <h1>Error page</h1>
     </Layout>
   )
 }
+
+export default Error
