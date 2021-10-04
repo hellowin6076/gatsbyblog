@@ -498,7 +498,7 @@ form > *:last-child {
 }
 .about-img {
   border-radius: var(--borderRadius);
-  height: 500px;
+  height: 250px;
 }
 
 @media screen and (min-width: 992px) {
@@ -508,14 +508,16 @@ form > *:last-child {
     height: 400px;
   }
   .about-img {
-    height: 100%;
+    height: 75%;
+  }
+  .featured-whiskies > h5 {
+    margin-top: 10%;
   }
 }
 
 .featured-whiskies > h5 {
   text-align: center;
   max-width: 100%;
-  margin-top: 5%;
 }
 
 /*#########*/
@@ -658,6 +660,9 @@ form > *:last-child {
   }
   .whiskies-list {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .featured-whiskies > h5 {
+    margin-top: 0%;
   }
 }
 /*#########*/
