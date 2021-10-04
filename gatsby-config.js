@@ -52,8 +52,15 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://luvwhisky.netlify.app/",
+        sitemap: "https://luvwhisky.netlify.app/sitemap/sitemap-0.xml",
+        policy: [{ userAgent: "*", allow: ["/"] }],
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-robots-txt`,
   ],
 }
