@@ -512,10 +512,12 @@ form > *:last-child {
   }
 }
 
-.featured-recipes > h5 {
+.featured-whiskies > h5 {
   text-align: center;
   max-width: 100%;
+  margin-top: 5%;
 }
+
 /*#########*/
 /* Hero */
 /*#########*/
@@ -554,17 +556,18 @@ form > *:last-child {
 }
 
 /*#########*/
-/* Recipes */
+/* Whiskies */
 /*#########*/
-.recipes-container {
+.whiskies-container {
   display: grid;
   gap: 2rem 1rem;
 }
 
-.recipes-list {
+.whiskies-list {
   display: grid;
   gap: 2rem 1rem;
   padding-bottom: 3rem;
+  padding-top: 3rem;
 }
 .tags-container {
   order: 1;
@@ -589,52 +592,54 @@ form > *:last-child {
 .tags-list a:hover {
   color: var(--primary-500);
 }
-.recipe {
+.whisky {
   display: block;
+  justify-self: center;
 }
-.recipe-img {
-  height: 15rem;
+.whisky-img {
+  height: 30rem;
   width: 15rem;
   border-radius: var(--borderRadius);
 }
-.recipe h5 {
+
+.whisky h5 {
   margin-bottom: 0;
   margin-top: 0.25rem;
   line-height: 1;
   color: var(--textColor);
   font-weight: 600;
 }
-.recipe p {
+.whisky p {
   margin-bottom: 0;
   line-height: 1;
   color: var(--grey-800);
   margin-top: 0.5rem;
 }
 @media screen and (min-width: 576px) {
-  .recipes-list {
+  .whiskies-list {
     grid-template-columns: 1fr 1fr;
   }
-  .recipe-img {
+  .whisky-img {
     height: 19rem;
     width: 10rem;
   }
 }
 
 @media screen and (min-width: 992px) {
-  .recipes-container {
+  .whiskies-container {
     grid-template-columns: 200px 1fr;
     gap: 1rem;
   }
-  .recipes-list {
+  .whiskies-list {
     grid-template-columns: 1fr 1fr;
   }
 
-  .recipe-img {
-    height: 30rem;
-    width: 9rem;
+  .whisky-img {
+    height: 26rem;
+    width: 13rem;
   }
 
-  .recipe p {
+  .whisky p {
     font-size: 0.85rem;
   }
   .tags-container {
@@ -648,10 +653,10 @@ form > *:last-child {
 }
 
 @media screen and (min-width: 1200px) {
-  .recipe h5 {
+  .whisky h5 {
     font-size: 1.15rem;
   }
-  .recipes-list {
+  .whiskies-list {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
@@ -694,45 +699,45 @@ form > *:last-child {
 }
 
 /*#########*/
-/* Recipe Template */
+/* Whisky Template */
 /*#########*/
 
-.recipe-hero {
+.whisky-hero {
   display: grid;
   gap: 3rem;
 }
-.recipe-hero .about-img {
+.whisky-hero .about-img {
   width: 250px;
 }
-.recipe-icons {
+.whisky-icons {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   margin: 2rem 0;
   text-align: center;
 }
-.recipe-icons svg {
+.whisky-icons svg {
   font-size: 1.5rem;
 }
-.recipe-icons h5,
-.recipe-icons p {
+.whisky-icons h5,
+.whisky-icons p {
   margin-bottom: 0;
   font-size: 0.85em;
 }
-.recipe-icons h5 {
+.whisky-icons h5 {
   font-weight: 600;
 }
-.recipe-icons p {
+.whisky-icons p {
   color: var(--grey-800);
 }
-.recipe-tags {
+.whisky-tags {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   font-size: 0.7em;
   font-weight: 600;
 }
-.recipe-tags a {
+.whisky-tags a {
   background: var(--primary-500);
   border-radius: var(--borderRadius);
   color: var(--white);
@@ -741,18 +746,18 @@ form > *:last-child {
   text-transform: capitalize;
 }
 @media screen and (min-width: 992px) {
-  .recipe-hero {
+  .whisky-hero {
     grid-template-columns: 2fr 5fr;
     align-items: center;
   }
 }
-.recipe-content {
+.whisky-content {
   padding: 3rem 0;
 
   gap: 2rem 5rem;
 }
 @media screen and (min-width: 992px) {
-  .recipe-content {
+  .whisky-content {
     grid-template-columns: 2fr 1fr;
   }
 }

@@ -21,19 +21,19 @@ const WhiskyTemplate = ({ data }) => {
     <Layout>
       <SEO title={title} />
       <main className="page">
-        <div className="recipe-page">
+        <div className="whisky-page">
           {/* hero */}
-          <section className="recipe-hero">
+          <section className="whisky-hero">
             <GatsbyImage
               image={pathToImage}
               alt={title}
               className="about-img"
             />
-            <article className="recipe-info">
+            <article className="whisky-info">
               <h2>{title}</h2>
               <p>{description}</p>
               {/* icons */}
-              <div className="recipe-icons">
+              <div className="whisky-icons">
                 <article>
                   <BsDroplet />
                   <h5>types</h5>
@@ -51,7 +51,7 @@ const WhiskyTemplate = ({ data }) => {
                 </article>
               </div>
               {/* tags */}
-              <p className="recipe-tags">
+              <p className="whisky-tags">
                 Tags :{" "}
                 {tags.map((tag, index) => {
                   return (
@@ -64,7 +64,7 @@ const WhiskyTemplate = ({ data }) => {
             </article>
           </section>
           {/* whisky of the content */}
-          <section className="recipe-content">
+          <section className="whisky-content">
             <article>
               <div>
                 <h4>impression</h4>
@@ -79,7 +79,7 @@ const WhiskyTemplate = ({ data }) => {
 }
 
 export const query = graphql`
-  query getsingleRecipe($url: String) {
+  query getsingleWhisky($url: String) {
     contentfulWhisky(url: { eq: $url }) {
       title
       types

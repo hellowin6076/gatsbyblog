@@ -6,7 +6,7 @@ import SEO from "../components/SEO"
 const Whiskies = () => {
   return (
     <Layout>
-      <SEO title="Contact" />
+      <SEO title="Whiskies" />
       <main className="page">
         <AllWhiskies />
       </main>

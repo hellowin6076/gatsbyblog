@@ -11,7 +11,7 @@ const TagTempalte = ({ data, pageContext }) => {
       <SEO title={pageContext.tag} />
       <main className="page">
         <h2>{pageContext.tag}</h2>
-        <div className="tag-recipes">
+        <div className="tag-whiskies">
           <WhiskiesList whiskies={whiskies} />
         </div>
       </main>

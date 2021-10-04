@@ -42,7 +42,7 @@ const About = ({
             placeholder="blurred"
           />
         </section>
-        <section className="featured-recipes">
+        <section className="featured-whiskies">
           <h5>Look at this Awesomesouce!</h5>
           <WhiskiesList whiskies={whiskies} />
         </section>

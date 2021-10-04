@@ -26,7 +26,7 @@ const AllWhiskies = () => {
   const data = useStaticQuery(query)
   const whiskies = data.allContentfulWhisky.nodes
   return (
-    <section className="recipes-container">
+    <section className="whiskies-container">
       <TagsList whiskies={whiskies} />
       <WhiskiesList whiskies={whiskies} />
     </section>
