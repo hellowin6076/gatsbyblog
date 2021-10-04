@@ -13,12 +13,16 @@ module.exports = {
     title: "Luv Whisky",
     description: "Luv Whisky",
     author: "@bufgix",
+    siteUrl: "https://luvwhisky.netlify.app/",
   },
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
