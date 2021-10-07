@@ -64,7 +64,7 @@ module.exports = {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://luvwhisky.netlify.app/",
-        sitemap: "https://luvwhisky.netlify.app/sitemap/sitemap-0.xml",
+        sitemap: "https://luvwhisky.netlify.app/sitemap.xml",
         policy: [{ userAgent: "*", allow: ["/"] }],
       },
     },
