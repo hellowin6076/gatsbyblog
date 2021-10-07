@@ -2,6 +2,7 @@ import { graphql, Link } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import React from "react"
 import { BsCalendar, BsDroplet, BsGem } from "react-icons/bs"
+import { Disqus } from "gatsby-plugin-disqus"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 
@@ -14,9 +15,14 @@ const WhiskyTemplate = ({ data }) => {
     description: { description },
     image,
     content,
+    url,
   } = data.contentfulWhisky
   const pathToImage = getImage(image)
   const { tags, impression } = content
+  const disqusConfig = {
+    identifier: url,
+    title: title,
+  }
   return (
     <Layout>
       <SEO title={title} />
@@ -73,6 +79,7 @@ const WhiskyTemplate = ({ data }) => {
             </article>
           </section>
         </div>
+        <Disqus config={disqusConfig} />
       </main>
     </Layout>
   )

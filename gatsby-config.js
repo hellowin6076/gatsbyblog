@@ -68,6 +68,12 @@ module.exports = {
         policy: [{ userAgent: "*", allow: ["/"] }],
       },
     },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `luvwhisky`,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
   ],
