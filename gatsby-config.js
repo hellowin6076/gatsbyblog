@@ -13,7 +13,7 @@ module.exports = {
     title: "Luv Whisky",
     description: "Luv Whisky",
     author: "@bufgix",
-    siteUrl: "https://luvwhisky.netlify.app/",
+    siteUrl: `https://luvwhisky.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
