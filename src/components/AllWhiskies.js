@@ -5,7 +5,7 @@ import { graphql, useStaticQuery } from "gatsby"
 
 const query = graphql`
   {
-    allContentfulWhisky(sort: { fields: id, order: DESC }) {
+    allContentfulWhisky(sort: { fields: createdAt, order: DESC }) {
       nodes {
         id
         title
