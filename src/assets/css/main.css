@@ -712,7 +712,7 @@ form > *:last-child {
   gap: 3rem;
 }
 .whisky-hero .about-img {
-  width: 250px;
+  height: 500px;
 }
 .whisky-icons {
   display: grid;
