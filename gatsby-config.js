@@ -65,7 +65,7 @@ module.exports = {
       options: {
         host: "https://luvwhisky.netlify.app",
         sitemap: "https://luvwhisky.netlify.app/sitemap-index.xml",
-        policy: [{ userAgent: "*", allow: ["/"] }],
+        policy: [{ userAgent: "*", allow: ["/"], disallow: ["/tags/"] }],
       },
     },
     {
