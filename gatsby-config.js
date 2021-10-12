@@ -13,13 +13,14 @@ module.exports = {
     title: "Luv Whisky",
     description: "Luv Whisky",
     author: "@bufgix",
-    siteUrl: `https://luvwhisky.netlify.app/`,
+    siteUrl: `https://luvwhisky.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-advanced-sitemap`,
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
@@ -64,21 +65,14 @@ module.exports = {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
         host: "https://luvwhisky.netlify.app",
-        sitemap: "https://luvwhisky.netlify.app/sitemap-index.xml",
-        policy: [{ userAgent: "*", allow: ["/"], disallow: ["/tags/"] }],
+        sitemap: "https://luvwhisky.netlify.app/sitemap.xml",
+        policy: [{ userAgent: "*", allow: ["/"] }],
       },
     },
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
         shortname: `luvwhisky`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        output: `/`,
-        excludes: ["/tags/**"],
       },
     },
     `gatsby-plugin-react-helmet`,
