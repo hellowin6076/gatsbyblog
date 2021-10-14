@@ -16,16 +16,27 @@ module.exports = {
     siteUrl: `https://luvwhisky.netlify.app`,
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/`,
+        excludes: ["/tags/**"],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: "https://luvwhisky.netlify.app",
+        sitemap: "https://luvwhisky.netlify.app/sitemap-index.xml",
+        policy: [{ userAgent: "*", allow: ["/"] }],
+      },
+    },
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        exclude: ["/tags/**"],
-      },
-    },
+
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
@@ -66,20 +77,12 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: `gatsby-plugin-robots-txt`,
-      options: {
-        host: "https://luvwhisky.netlify.app",
-        sitemap: "https://luvwhisky.netlify.app/sitemap.xml",
-        policy: [{ userAgent: "*", allow: ["/"] }],
-      },
-    },
+
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
         shortname: `luvwhisky`,
       },
     },
-    `gatsby-plugin-react-helmet`,
   ],
 }
