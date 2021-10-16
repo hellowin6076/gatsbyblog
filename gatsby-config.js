@@ -36,7 +36,12 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-2312977032202980`,
+      },
+    },
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
