@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
+<!-- www.check-domains.com sitemap generator -->
+
+<url>
+   <loc>https://luvwhisky.netlify.app/</loc>
+   <lastmod>2021-10-23T04:56:45+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>1.0000</priority>
+</url>
+<url>
+   <loc>https://luvwhisky.netlify.app/sitemap-index.xml</loc>
+   <lastmod>2021-10-23T04:56:45+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://luvwhisky.netlify.app/whiskies/</loc>
+   <lastmod>2021-10-23T04:56:45+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://luvwhisky.netlify.app/about/</loc>
+   <lastmod>2021-10-23T04:56:45+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://luvwhisky.netlify.app/contact/</loc>
+   <lastmod>2021-10-23T04:56:45+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://luvwhisky.netlify.app/the-glenlivet-18-years/</loc>
+   <lastmod>2021-10-23T04:56:45+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://luvwhisky.netlify.app/johnnie-walker-green-label/</loc>
+   <lastmod>2021-10-23T04:56:45+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://luvwhisky.netlify.app/highland-park-12-year/</loc>
+   <lastmod>2021-10-23T04:56:45+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://luvwhisky.netlify.app/the-glenlivet-15-years/</loc>
+   <lastmod>2021-10-23T04:56:45+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://luvwhisky.netlify.app/jura-10years/</loc>
+   <lastmod>2021-10-23T04:56:45+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://luvwhisky.netlify.app/chivas-regal-18years/</loc>
+   <lastmod>2021-10-23T04:56:45+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://luvwhisky.netlify.app/ballantines-12years/</loc>
+   <lastmod>2021-10-23T04:56:45+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://luvwhisky.netlify.app/early-times/</loc>
+   <lastmod>2021-10-23T04:56:45+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://luvwhisky.netlify.app/talisker-10years/</loc>
+   <lastmod>2021-10-23T04:56:45+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+</urlset>
