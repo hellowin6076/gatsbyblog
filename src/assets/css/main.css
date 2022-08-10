@@ -570,6 +570,7 @@ form > *:last-child {
   gap: 2rem 1rem;
   padding-bottom: 3rem;
   padding-top: 3rem;
+  
 }
 .tags-container {
   order: 1;
@@ -597,6 +598,8 @@ form > *:last-child {
 .whisky {
   display: block;
   justify-self: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 .whisky-img {
   height: 30rem;
