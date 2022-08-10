@@ -605,6 +605,9 @@ form > *:last-child {
   height: 30rem;
   width: 15rem;
   border-radius: var(--borderRadius);
+  margin-left: 0rem;
+  margin-right: 0rem;
+  
 }
 
 .whisky h5 {
@@ -620,10 +623,22 @@ form > *:last-child {
   color: var(--grey-800);
   margin-top: 0.5rem;
 }
+
+@media screen and (min-width: 200px) {
+  .whisky {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
 @media screen and (min-width: 576px) {
   .whiskies-list {
     grid-template-columns: 1fr 1fr;
   }
+  .whisky {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
   .whisky-img {
     height: 19rem;
     width: 10rem;
@@ -642,6 +657,11 @@ form > *:last-child {
   .whisky-img {
     height: 26rem;
     width: 13rem;
+  }
+
+  .whisky {
+    margin-left: 25%;
+    margin-right: 25%;
   }
 
   .whisky p {
@@ -668,6 +688,8 @@ form > *:last-child {
     margin-top: 0%;
   }
 }
+
+
 /*#########*/
 /* Tags */
 /*#########*/
