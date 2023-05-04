@@ -5,6 +5,7 @@ import { BsCalendar, BsDroplet, BsGem } from "react-icons/bs"
 import { Disqus } from "gatsby-plugin-disqus"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
+import moment from "moment"
 
 const WhiskyTemplate = ({ data }) => {
   const {
@@ -16,6 +17,8 @@ const WhiskyTemplate = ({ data }) => {
     image,
     content,
     url,
+    createdAt,
+    updatedAt,
   } = data.contentfulWhisky
   const pathToImage = getImage(image)
   const { tags, impression } = content
@@ -37,6 +40,10 @@ const WhiskyTemplate = ({ data }) => {
             />
             <article className="whisky-info">
               <h2>{title}</h2>
+              <h6 align="right">
+                작성 : {moment(createdAt).format(`YY.MM.DD HH:mm`)}　 갱신 :{" "}
+                {moment(updatedAt).format(`YY.MM.DD HH:mm`)}
+              </h6>
               <p>{description}</p>
               {/* icons */}
               <div className="whisky-icons">
@@ -103,6 +110,8 @@ export const query = graphql`
         gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
       }
       url
+      createdAt
+      updatedAt
     }
   }
 `
